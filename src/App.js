@@ -4,7 +4,7 @@ import "./App.css";
 export default function App() {
   return (
     <div>
-      <div className="App">Weather app</div>
+      <div className="App">Testing new content</div>
       <footer>
         Coded 👩‍💻 by{" "}
         <a
