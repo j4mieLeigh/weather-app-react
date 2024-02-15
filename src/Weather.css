@@ -41,10 +41,8 @@
   text-align: left;
 }
 
-.Weather img {
+.Weather canvas {
   display: inline-block;
-  height: 64px;
-  width: 64px;
   margin-right: 10px;
 }
 
