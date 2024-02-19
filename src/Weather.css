@@ -43,7 +43,6 @@
 
 .Weather canvas {
   display: inline-block;
-  margin-right: 10px;
 }
 
 .Weather .temperature {
