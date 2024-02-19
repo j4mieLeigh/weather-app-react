@@ -1,7 +1,13 @@
 .Weather {
-  border: 1px solid #878787;
-  border-radius: 4px;
-  color: #878787;
+  background-image: url("mountain-monochromatic-7a7ec.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 125%;
+  border: 5px solid #0f282e;
+  border-radius: 15px;
+  box-shadow: 15px 15px #bdede0;
+  color: white;
+  font-size: 14px;
   padding: 15px;
 }
 
@@ -10,22 +16,36 @@
 }
 
 .Weather .search-bar {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
   margin-right: 5px;
-  width: 60%;
+  padding: 8px;
+  width: 75%;
 }
 
 .Weather .submit-button {
+  background-color: #205460;
+  border: none;
+  border-radius: 4px;
   margin-left: 5px;
-  width: 20%;
+  padding: 8px;
+  width: 22%;
+}
+
+.Weather .submit-button:hover {
+  opacity: 0.7;
+  transition: all 200ms ease-in-out;
 }
 
 .Weather h1 {
-  color: #878787;
+  color: #f15924;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 42px;
+  font-weight: bold;
   margin: 20px 0 0 0;
-  line-height: 30px;
+  line-height: 42px;
   text-align: left;
 }
 
@@ -43,20 +63,21 @@
 
 .Weather canvas {
   display: inline-block;
+  padding: 8px;
 }
 
 .Weather .temperature {
-  color: black;
-  font-size: 64px;
+  color: white;
+  font-size: 72px;
   font-weight: bold;
-  line-height: 64px;
+  line-height: 80px;
   text-align: left;
 }
 
 .Weather .unit {
-  font-size: 16px;
+  font-size: 28px;
   line-height: 1;
   position: relative;
   margin-left: 5px;
-  top: -34px;
+  top: -31px;
 }

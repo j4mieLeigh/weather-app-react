@@ -4,7 +4,18 @@
 }
 
 .App footer {
-  font-size: 13px;
-  margin: 10px 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  margin: 30px 0;
   text-align: center;
+}
+
+.App footer a {
+  color: #be2cea;
+  text-decoration: none;
+}
+
+.App footer a:hover {
+  opacity: 0.6;
+  transition: all 200ms ease-in-out;
 }

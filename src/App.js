@@ -12,6 +12,7 @@ export default function App() {
           <a
             href="https://github.com/j4mieLeigh"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Jamie Leigh
           </a>{" "}
@@ -19,6 +20,7 @@ export default function App() {
           <a
             href="https://github.com/j4mieLeigh/weather-app-react"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Github
           </a>{" "}
@@ -26,6 +28,7 @@ export default function App() {
           <a
             href="https://preeminent-gumdrop-b73ad5.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Netlify
           </a>
